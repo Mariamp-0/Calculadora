@@ -33,13 +33,10 @@ if (operador == "+" || operador== "-" || operador == "*" || operador == "/" || o
             alert("Error: No se puede hallar el módulo diviendo por cero")
         }
     }
-
+    document.getElementById('resultado_final').innerText = "Resultado: " + resultado;
 } else {
     alert("ERROR: operador no válido")
     };
-
-document.getElementById('resultado_final').innerText = "Resultado: " + resultado;
-
 //console.log(resultado);
 
 })
